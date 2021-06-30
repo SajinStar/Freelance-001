@@ -1,16 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 
 nav {
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    .collapse.navbar-collapse {
+        justify-content: space-around;
+    }
+    .navitms a {
+        color: black !important;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .search  {
 
-    .search input {
-        margin-right:0 !important;
-        border-right: 0 !important;
+        & > div {
+            border:1px solid #dddd;
+            padding:2px 5px;
+        }
+      
+        input {
+            margin-right:0 !important;
+            border:#cecece;
+            border-right: 0 !important;
+            border-radius: 0;
+            padding: 5px 5px 5px 20px;
+            background: #f6f5f6;
+            outline: transparent !important;
+            font-size: 14px;
+        }
+        button {
+            padding: 0;
+            // padding-right: 3px;
+            background: #f6f5f6;
+        }
+        svg{
+            margin: 0 10px;
+            font-size: 26px;
+        }
     }
 }
+
+.slider {
+    padding:15px 0;
+    .content {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        color: black;
+        z-index: 9999999;
+      }
+      
+      .swiper-slide:hover img {
+        opacity: 0.5;
+      }
+      
+      .swiper-slide:hover .content {
+        opacity: 1;
+      }
+
+      .swiper-slide:hover .content  a {
+        transition: all .5s ease;
+        color: black;
+        border: 1px solid black;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 1;
+        font-size: 17px;
+        background-color : transparent;
+        padding: 10px;
+        outline: none;
+        border-radius: 3px;
+      }
+
+      .text {
+        color: black;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+      .swiper-button-prev,.swiper-button-next{
+          color: black;
+      }
+}
+
+
