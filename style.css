@@ -164,6 +164,12 @@ nav .search svg {
   background: #8b95b9;
 }
 
+.imageArea > div {
+  background: #8b95b9;
+    margin: 9px;
+}
+
+
 .productsArea .customcard .col-md-6:nth-child(2) {
   padding: 10px;
   padding-bottom: 30px;
@@ -337,6 +343,9 @@ h6 {
   .formInput {
     left: 0px;
   }
+  .productsArea .customcard .col-md-6:nth-child(1) {
+    background: none;
+  }
 }
 
 
@@ -373,9 +382,32 @@ p {
 .percentPArent img {
   padding-bottom: 30px;
 }
-
+.bestBox > div img {
+  width: 100%;
+}
+.bestBox img {
+  max-width: 400px;
+  width: 100%;
+}
 @media only screen and (max-width: 600px) {
   .percent {
     display: none;
   }
+  .brandBackTitle {
+      font-size: 80px;
+  }
+ }
+@media only screen and (max-width: 600px) {
+
+  .brandBackTitle {
+    font-size: 90px !important;
+  }
+ }
+ .followImg {
+   max-width: 300px;
+   width: 100%;
+ }
+
+ .bottomSlider {
+   overflow-x: hidden;
  }
