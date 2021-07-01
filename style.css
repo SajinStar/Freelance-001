@@ -229,3 +229,153 @@ nav .search svg {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+/* Sajin */
+
+/* footer */
+
+
+.footerTopRow div {
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(36, 35, 35);
+  color: white;
+  align-items: flex-start;
+}
+h6 {
+  text-align: start;
+  font-weight: bold;
+}
+.footerText {
+  font-size: 13px;
+  text-align: start;
+  line-height: 28px;
+}
+
+.footerIcon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footerIcon div {
+  display: flex;
+  flex-direction: column;
+}
+.footerIcon div img {
+  padding: 6px;
+}
+
+@media only screen and (max-width: 760px) {
+  .footerIcon div {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+
+/* FORM */
+
+
+.formInput {
+  text-align: center;
+}
+
+.formInput input {
+  max-width: 600px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+#email {
+  text-align: center;
+  border-top: unset;
+  border-left: unset;
+  border-right: unset;
+  box-shadow: unset;
+  box-sizing: border-box;
+  direction: ltr;
+  border-color: rgb(221, 65, 96);
+  color: rgb(221, 65, 96);
+}
+#email:focus {
+  outline: unset;
+}
+#email:hover {
+  border-color: rgb(36, 35, 35);
+  border-width: 1px;
+}
+
+.buttonJoin {
+  text-align: center;
+}
+
+
+
+.btnJoin {
+  border-color: rgb(221, 65, 96);
+  color: rgb(221, 65, 96);
+  border-radius: unset;
+  padding: 8px 45px;
+}
+
+.btnJoin:hover {
+  background-color: rgb(233, 183, 183);
+  color: black;
+}
+
+.formText {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  line-height: 25px;
+}
+
+@media only screen and (max-width: 760px) {
+  .formInput {
+    left: 0px;
+  }
+}
+
+
+
+/* Best deals */
+
+.bestBox,
+img {
+  height: auto;
+}
+.bestBox,
+h5 {
+  padding-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bestBox,
+p {
+  font-size: 11px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.percentPArent {
+  position: relative; 
+}
+
+.percent {
+  position: absolute;
+  top: -23px;
+  left: 100px;
+}
+.percentPArent img {
+  padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .percent {
+    display: none;
+  }
+ }
