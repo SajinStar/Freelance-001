@@ -29,6 +29,14 @@ nav .navitms a {
   font-size: 14px;
 }
 
+.navbar-nav.navitms.mb-2.mb-lg-0 {
+  margin-left: 140px;
+}
+
+.search {
+  align-items: center;
+}
+
 nav .search > div {
   border: 1px solid #dddd;
   padding: 2px 5px;
