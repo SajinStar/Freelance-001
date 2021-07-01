@@ -55,6 +55,10 @@ nav .search svg {
   font-size: 26px;
 }
 
+nav .swiper-button-next {
+  display: none !important;
+}
+
 .slider {
   padding: 15px 0;
 }
@@ -94,7 +98,7 @@ nav .search svg {
   background-color: transparent;
   padding: 10px;
   outline: none;
-  border-radius: 3px;
+  
 }
 
 .slider .text {
