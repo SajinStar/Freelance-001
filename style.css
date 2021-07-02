@@ -70,22 +70,29 @@ nav .navitms a {
 }
 
 nav .search > div {
-  border: 1px solid #dddd;
+  border: #fdf0f0dd;
   padding: 2px 5px;
 }
 
 nav .search input {
   margin-right: 0 !important;
-  border: #cecece;
+  border: #ffffff;
   border-right: 0 !important;
-  border-radius: 0;
+  border-radius: 4px;
   padding: 5px 5px 5px 20px;
-  background: #f6f5f6;
+  background: #f5f3f5;
   outline: transparent !important;
-  font-size: 14px;
+  font-size: 12px;
+  height: 40px;
+  width: 250px;
+}
+nav .search input:hover {
+  border-bottom: 1px solid rgb(10, 10, 10);
+  background-color: #c5c4c3;
 }
 
 nav .search button {
+  font-weight: lighter;
   padding: 0;
   background: #f6f5f6;
 }
