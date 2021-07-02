@@ -158,6 +158,9 @@ nav .swiper-button-next {
   color: black;
 }
 
+.brandSection {
+  margin-top: 40px !important ;
+}
 .brandHeader {
   position: relative;
   text-align: center;
@@ -198,6 +201,10 @@ nav .swiper-button-next {
 .brandInsideTitle a {
   color: black;
   text-decoration: none;
+}
+
+.productsArea {
+  margin-bottom: 80px !important;
 }
 
 .productsArea .customcard {
