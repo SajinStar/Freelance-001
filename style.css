@@ -25,7 +25,7 @@ nav .collapse.navbar-collapse {
 }
 
 .nav-item {
-  padding-right: 20px;
+  padding-right: 20px; 
 }
 
 .active:hover {
@@ -47,6 +47,10 @@ nav .collapse.navbar-collapse {
 .dropdown-menu {
   text-align: center;
   border-color: white;
+}
+
+.navbar-brand {
+  padding-left: 30px;
 }
 
 nav .navitms a {
@@ -72,6 +76,10 @@ nav .navitms a {
 nav .search > div {
   border: #fdf0f0dd;
   padding: 2px 5px;
+}
+
+.navbar-collapse {
+  padding-left: 130px;
 }
 
 nav .search input {
