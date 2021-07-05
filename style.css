@@ -44,6 +44,7 @@ nav .collapse.navbar-collapse {
   transition: all ease 0.5s;
 }
 
+
 .dropdown-menu {
   text-align: center;
   border-color: white;
@@ -82,6 +83,18 @@ nav .search > div {
   padding-left: 130px;
 }
 
+@media only screen and (min-width: 1680px) {
+  
+.navbar-collapse {
+  padding-left: 400px;
+}
+.navbar-brand {
+  padding-left: 200px;
+}
+
+   }
+ 
+
 nav .search input {
   margin-right: 0 !important;
   border: #ffffff;
@@ -92,12 +105,45 @@ nav .search input {
   outline: transparent !important;
   font-size: 12px;
   height: 40px;
-  width: 250px;
+  width: 200px;
 }
-nav .search input:hover {
-  border-bottom: 1px solid rgb(10, 10, 10);
+
+
+
+.search_area:hover {
+  
   background-color: #c5c4c3;
+  border-radius: 4px;
 }
+
+nav .search input , .search-btn , .search-btn i {
+  background: transparent !important;
+}
+
+.search-btn {
+  padding: 7px 12px !important;
+}
+
+.search-btn:hover {
+  background-color: rgb(70, 68, 68) !important;
+}
+
+form svg {
+  margin-left: 40px !important;
+}
+
+
+
+
+
+nav .search > div {
+    border: #fdf0f0dd;
+    padding: 0px;
+}
+
+
+
+
 
 nav .search button {
   font-weight: lighter;
@@ -164,6 +210,11 @@ nav .swiper-button-next {
 .slider .swiper-button-prev,
 .slider .swiper-button-next {
   color: black;
+}
+
+.slider .swiper-button-prev, .slider .swiper-button-next {
+  color: #e0dede;
+
 }
 
 .brandSection {
@@ -302,6 +353,30 @@ nav .swiper-button-next {
     margin-left: 10px;
   }
 }
+
+
+
+
+
+.buttonDeals {
+  margin-top: 30px;
+  text-align: center;
+  
+}
+
+.btnDeals {
+  border: 2px solid black;
+  border-color: rgb(0, 0, 0);
+ 
+  border-radius: unset;
+  padding: 8px 25px;
+  font-size: 14px;
+}
+
+.btnDeals:hover {
+  background-color: rgb(248, 154, 47);
+  color: black;
+}
 /*# sourceMappingURL=style.css.map */
 
 /* Sajin */
@@ -336,6 +411,20 @@ h6 {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+
+
+
+
+@media only screen and (max-width: 2000px) {
+.footerIcon {
+  justify-content: flex-start;
+}
+.footer-logo {
+  text-align: center;
+}
+
 }
 
 .footerIcon div {
@@ -472,6 +561,18 @@ p {
 .followImg {
   max-width: 300px;
   width: 100%;
+}
+@media only screen and (max-width: 450px) {
+  .followImg {
+    max-width: initial;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 2000px) {
+  .followImg {
+    max-width: 438px;
+    width: 100%;
+  }
 }
 
 .bottomSlider {
