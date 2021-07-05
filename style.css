@@ -311,6 +311,11 @@ nav .swiper-button-next {
 .footerTopRow div {
   text-align: center;
 }
+.footerTopRow  {
+  margin-bottom: 30px;
+}
+
+
 
 footer {
   background-color: rgb(36, 35, 35);
@@ -387,7 +392,7 @@ h6 {
   border-color: rgb(221, 65, 96);
   color: rgb(221, 65, 96);
   border-radius: unset;
-  padding: 8px 45px;
+  padding: 8px 70px;
 }
 
 .btnJoin:hover {
@@ -435,6 +440,8 @@ p {
 }
 
 .percent {
+  width: 80px;
+  height: auto;
   position: absolute;
   top: -23px;
   left: 100px;
