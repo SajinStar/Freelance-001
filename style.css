@@ -44,6 +44,20 @@ nav .collapse.navbar-collapse {
   transition: all ease 0.5s;
 }
 
+.site_logo {
+
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+ 
+.site_logo {
+width: 45px;
+  height: auto;
+}
+}
+  
+
 
 .dropdown-menu {
   text-align: center;
