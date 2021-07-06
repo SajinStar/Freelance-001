@@ -85,3 +85,12 @@ const swiper2 = new Swiper(".swiper-container2", {
     },
   },
 });
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "350px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
