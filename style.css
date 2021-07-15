@@ -40,17 +40,17 @@ nav .collapse.navbar-collapse {
 }
 
 .active:hover {
-  color: #c94c03 !important;
+  color: rgba(149,204,144,255) !important;
   transition: all ease 0.5s;
 }
 
 .nav-link:hover {
-  color: #c94c03 !important;
+  color: rgba(149,204,144,255)!important;
   transition: all ease 0.5s;
 }
 
 .dropdown-item:hover {
-  color: #c94c03 !important;
+  color: rgba(149,204,144,255) !important;
   background-color: white;
   transition: all ease 0.5s;
 }
@@ -266,7 +266,7 @@ nav .swiper-button-next {
 }
 
 .brandSection {
-  margin-top: 40px !important ;
+  padding-top: 40px !important ;
 }
 .brandHeader {
   position: relative;
@@ -303,6 +303,7 @@ nav .swiper-button-next {
   font-size: 28px;
   line-height: normal;
   letter-spacing: 5px;
+  margin-bottom: 0px !important;
 }
 
 .brandInsideTitle a {
@@ -438,6 +439,15 @@ font-weight: bold;
   font-size: 13px;
   font-weight: 550;
 }
+.followHeader {
+  background-color:#dcd4d43b ;
+}
+.brandInsideTitle {
+  border-bottom: 0px !important;
+}
+
+
+
 
 .brandsOnSale .row .col-md-6 {
   display: -webkit-box;
@@ -474,7 +484,7 @@ font-weight: bold;
 }
 
 .btnDeals {
-  border: 2px solid black;
+  border: 1px solid black;
   border-color: rgb(0, 0, 0);
  
   border-radius: unset;
@@ -483,7 +493,7 @@ font-weight: bold;
 }
 
 .btnDeals:hover {
-  background-color: rgb(248, 154, 47);
+  background-color: rgba(149,204,144,255);
   color: black;
 }
 /*# sourceMappingURL=style.css.map */
@@ -491,6 +501,9 @@ font-weight: bold;
 /* Sajin */
 
 /* footer */
+.footerTop {
+  display: none;
+}
 
 .footerTopRow div {
   text-align: center;
@@ -528,7 +541,7 @@ h6 {
 
 @media only screen and (max-width: 2000px) {
 .footerIcon {
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 .footer-logo {
   text-align: center;
@@ -581,7 +594,7 @@ h6 {
   box-shadow: unset;
   box-sizing: border-box;
   direction: ltr;
-  border-color: rgb(221, 65, 96);
+  border-color: rgba(149,204,144,255);
   color: rgb(221, 65, 96);
 }
 #email:focus {
@@ -592,19 +605,28 @@ h6 {
   border-width: 1px;
 }
 
+.JoinHeader {
+  background-color:#dcd4d43b ;
+}
+
 .buttonJoin {
   text-align: center;
 }
+.joinForm {
+  padding: 100px 100px 0px 100px;
+  
+}
+
 
 .btnJoin {
-  border-color: rgb(221, 65, 96);
-  color: rgb(221, 65, 96);
+  border-color: rgba(149,204,144,255);
+  color: rgba(149,204,144,255);
   border-radius: unset;
   padding: 8px 70px;
 }
 
 .btnJoin:hover {
-  background-color: rgb(233, 183, 183);
+  background-color: rgba(149,204,144,255);
   color: black;
 }
 
@@ -702,8 +724,26 @@ p {
   }
 }
 
+.backToTopBtn {
+  text-align: end;
+  margin-right: 200px;
+  padding-bottom: 10px;
+}
+.backToTopBtn button {
+  background: transparent;
+  border: 1px solid white;
+  padding: 8px 25px;
+  
+}
+.backToTopBtn button a {
+  color: white;
+  text-decoration:none ;
+  font-size: 14px !important;
+}
+
 .bottomSlider {
   overflow-x: hidden;
+  background-color: #dcd4d43b;
 }
 .dropdown:hover .dropdown-menu {
   display: block;
