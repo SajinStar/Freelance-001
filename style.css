@@ -7,6 +7,16 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.topBlackBar {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-weight: 200;
+  font-size: 13px;
+  padding: 10px 0px;
+  
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -115,6 +125,10 @@ nav .search > div {
 }
 
    }
+
+.search_area  {
+  background: rgb(241, 241, 241);
+}
  
 
 nav .search input {
@@ -186,6 +200,17 @@ nav .swiper-button-next {
   padding: 15px 0;
 }
 
+.carousel-control-next-icon {
+  height: 4rem;
+  width: 3rem;
+}
+
+
+.carousel-control-prev-icon {
+  height: 4rem;
+  width: 3rem;
+
+}
 .slider .content {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
@@ -288,9 +313,70 @@ nav .swiper-button-next {
   margin-bottom: 80px !important;
 }
 
+.customcard {
+  width: 280px;
+  margin-left: 70px !important;
+  box-shadow: none;
+}
+
+.firstCartBtn {
+  padding: 3px 22px !important;
+  border-color: rgba(93, 151, 238, 0.644) !important;
+  color:rgba(93, 151, 238, 0.644) !important ;
+}
+.secondCartBtn {
+  padding: 3px 22px !important;
+  border-color: rgb(255, 60, 0) !important;
+  color:rgb(255, 60, 0)  !important ;
+}
+.thirdCartBtn {
+  padding: 3px 22px !important;
+  border-color: rgba(20, 114, 255, 0.877) !important;
+  color:rgb(0, 102, 255) !important ;
+}
+
+.secondImgArea {
+  background-color: #bf8767 !important;
+}
+.thirdImgArea {
+  background-color: #a2cde8 !important;
+}
+.buttonCart {
+  text-align: start !important;
+}
+
+.productsArea .customcard button {
+  margin-top: 2px !important;
+}
+
+.firstCartRate {
+  text-align: start !important;
+ padding-top: 22px;
+ color: rgb(0, 0, 168) !important;
+ font-weight: bold;
+}
+
+.secondCartRate {
+  text-align: start !important;
+ padding-top: 22px;
+ color:rgb(187, 44, 0) !important ;
+ font-weight: bold;
+
+}
+
+.thirdCartRate {
+  text-align: start !important;
+ padding-top: 22px;
+color: rgb(0, 154, 206) !important;
+font-weight: bold;
+}
+
+
+.cartSectionRow {
+  -webkit-box-shadow: 5px -1px 14px 1px rgb(0 0 0 / 41%);
+   box-shadow: 5px -1px 14px 1px rgb(0 0 0 / 41%);
+}
 .productsArea .customcard {
-  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin: 20px 0;
   margin-bottom: 40px;
 }
@@ -559,13 +645,21 @@ p {
 .percentPArent {
   position: relative;
 }
+.brandOnSaleRow {
+  padding-left: 124px;
+  padding-right: 94px;
+}
+
+.percentPArent img {
+  padding-bottom: 60px !important;
+} 
 
 .percent {
   width: 80px;
   height: auto;
   position: absolute;
-  top: -23px;
-  left: 100px;
+  top: -40px;
+    left: 78px;
 }
 .percentPArent img {
   padding-bottom: 30px;
