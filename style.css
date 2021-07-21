@@ -366,6 +366,9 @@ nav .swiper-button-next {
   border-color: rgba(20, 114, 255, 0.877) !important;
   color:rgb(0, 102, 255) !important ;
 }
+.firstImgArea {
+  background-color:#8b95b9 ;
+}
 
 .secondImgArea {
   background-color: #bf8767 !important;
@@ -422,7 +425,6 @@ font-weight: bold;
 }
 
 .imageArea > div {
-  background: #8b95b9;
   margin: 9px;
 }
 
@@ -589,6 +591,11 @@ h6 {
 
 }
 
+.footerUpArrow {
+  width: 30px ;
+  height: auto;
+}
+
 .footerIcon div {
   display: flex;
   flex-direction: column;
@@ -601,6 +608,11 @@ h6 {
   .footerIcon div {
     display: flex;
     flex-direction: row;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .footerIcon  {
+    justify-content: flex-start;
   }
 }
 
