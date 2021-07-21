@@ -94,3 +94,43 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 
+
+
+const searchIp = document.querySelector(".searchIP");
+
+const suggestionsList = document.querySelector(".suggestions");
+const data = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+
+searchIp.addEventListener("keyup", (e) => {
+  let userVal = e.target.value;
+  let filterVal = [];
+  if (userVal) {
+    filterVal = data.filter((item) =>
+      item.toLowerCase().startsWith(userVal.toLowerCase())
+    );
+  }
+
+  filterVal = filterVal.map((item) => `<li> ${item} </li>`);
+
+  populateDom(filterVal);
+});
+
+function populateDom(val) {
+  suggestionsList.innerHTML = "";
+  val.forEach((element) => {
+    suggestionsList.innerHTML += element;
+  });
+}
